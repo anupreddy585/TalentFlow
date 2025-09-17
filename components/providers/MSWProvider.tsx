@@ -9,7 +9,7 @@ export function MSWProvider({ children }: { children: React.ReactNode }) {
 
   useEffect(() => {
     const initializeApp = async () => {
-      if (typeof window !== "undefined" && process.env.NODE_ENV === "development") {
+      if (typeof window !== "undefined") {
         try {
           // Import only in the browser
           const { setupWorker } = await import("msw/browser")
