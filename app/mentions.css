@@ -1,0 +1,34 @@
+/* app/mentions.css */
+.mentions {
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 6px;
+  min-height: 40px;
+}
+
+.mentions__input {
+  outline: none;
+  border: none;
+  width: 100%;
+}
+
+.mentions__suggestions {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-top: 4px;
+  max-height: 150px;
+  overflow-y: auto;
+  z-index: 1000;
+  position: absolute;
+}
+
+.mentions__suggestion {
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.mentions__suggestion--focused {
+  background: #eee;
+}
+
