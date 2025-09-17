@@ -142,3 +142,5 @@ export function AssessmentsPage() {
     </div>
   )
 }
+
+export default AssessmentsPage

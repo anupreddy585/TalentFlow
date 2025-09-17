@@ -97,3 +97,4 @@ export function AnalyticsPage() {
     </div>
   );
 }
+export default AnalyticsPage

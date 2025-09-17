@@ -8,3 +8,5 @@ export function AssessmentBuilderPage() {
     </div>
   );
 }
+
+export default AssessmentBuilderPage

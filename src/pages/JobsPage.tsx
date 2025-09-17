@@ -253,3 +253,5 @@ export function JobsPage() {
     </div>
   )
 }
+
+export default JobsPage

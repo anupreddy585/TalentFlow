@@ -254,3 +254,5 @@ export function JobDetailPage() {
     </div>
   )
 }
+
+export default JobDetailPage
